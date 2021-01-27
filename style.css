@@ -1,0 +1,94 @@
+body{
+	background: rgb(253, 253, 253);
+}
+.cart{
+	margin: 50px 0;
+	background-color: #F6F5FA;;
+	padding: 60px 0;
+	background: linear-gradient(45deg,#ffffff,#56ab2f );
+	border-radius: 10px;
+	
+	
+}
+.total-price{
+	padding-bottom: 15px;
+}
+.cart-item{
+	background-color: #fff;
+	border-radius: 10px;
+	padding: 15px 20px;
+	margin-bottom: 20px;
+	box-shadow: 5px 5px 12px rgb(24, 24, 24);
+}
+.center-item{
+    display: flex;
+    align-items: center;
+	justify-content: flex-start;
+	
+}
+.cart-item img{
+	width: 115px;
+}
+.cart-item h5{
+    padding: 0 45px;
+}
+.cart-item .remove-item{
+	width: 25px!important;
+}
+.btn-default{
+	background-color: #fff;
+}
+.cart-item .form-control{
+	background-color: #F6F5FA;
+	border: none;
+    width: 65px;
+    border-radius: 10px!important;
+    font-weight: 700;
+    font-size: 20px;
+}
+.input-group{
+	width: unset;
+}
+.status{
+	text-align: right;
+}
+.enter{
+	float: left;
+	color: white;
+	background: linear-gradient(135deg,#000428,#004e92);
+	border: none;
+	font-size: 19px;
+}
+.check-out{
+	float: right;
+	color: white;
+    padding: 10px 30px;
+	font-size: 19px;
+	background: linear-gradient(135deg,#000428,#004e92);
+	border: none;
+}
+.login-page{
+	border-radius: 5px;
+	box-shadow: 5px 5px 10px 0 rgb(94, 94, 94);
+	align-items: center;
+	justify-content: center;
+	background: linear-gradient(45deg,#ffffff,#56ab2f);
+}
+#productPage{
+	display: none;
+}
+h1{
+	font-family: Arial, Helvetica, sans-serif;
+	justify-content: center;
+	font-weight: 700;
+    padding: 20px 20px;
+    text-shadow: 3px 3px 8px rgb(112, 112, 96);
+    text-transform: uppercase;
+	
+}
+h3{
+	font-family: Arial, Helvetica, sans-serif;
+	color: rgb(0, 0, 0);
+	font-weight: 600;
+}
+
